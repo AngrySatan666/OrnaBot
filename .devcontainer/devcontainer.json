@@ -1,0 +1,82 @@
+{
+    "name": "AngrySatan666 Dev",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.12.10"
+        },
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "18"
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt",
+    "forwardPorts": [5000, 3000],
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.codespaces",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "donjayamanne.githistory",
+                "McCarter.start-git-bash",
+                
+                "ms-python.python",
+                "ms-python.vscode-python-envs",
+                "ms-python.debugpy",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.tensorboard",
+                
+                "mtxr.sqltools",
+                "qwtel.sqlite-viewer",
+                
+                "ms-vscode.powershell",
+                
+                "ms-vscode.cmake-tools",
+                
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-themes",
+                "ms-vscode.cpptools-extension-pack",
+                
+                "bierner.markdown-yaml-preamble",
+                "bierner.markdown-shiki",
+                "bierner.markdown-preview-github-styles",
+                "bierner.markdown-emoji",
+                "bierner.markdown-checkbox",
+                "bierner.markdown-mermaid",
+                "bierner.github-markdown-preview",
+                "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+                "DavidAnson.vscode-markdownlint",
+                "rogwilco.defaults-vscode-markdown",
+                "yzhang.markdown-all-in-one",
+            
+                "dbaeumer.vscode-eslint",
+                
+                "ms-vscode-remote.remote-wsl",
+                
+                "ms-vscode.live-server",
+                "ms-vsliveshare.vsliveshare",
+                "alefragnani.Bookmarks"
+            ],
+            "settings": {
+                "workbench.colorTheme": "Dark Modern",
+                "breadcrumbs.enabled": true,
+                
+                "editor.tabSize": 4,
+                "editor.bracketPairColorization.enabled": true,
+                "editor.insertSpaces": true,
+                "editor.renderWhitespace": true,
+                "editor.stickyScroll.enabled": true,
+                
+                "files.autoSave": "onFocusChange",
+                "files.trimTrailingWhitespace": true,
+                "files.insertFinalNewline": true,
+                
+                "python.linting.enabled": true,
+                
+                "eslint.enable": true,
+                "eslint.run": "onSave"
+            }
+        }
+    }
+}
