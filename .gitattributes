@@ -1,0 +1,357 @@
+# [SS-0]: Meta Data
+# 	index = {
+#		"SS-1" : Auto Detect Text Files 						(13)
+#		"SS-2" : Binary File Handeling 							(16)
+#		"SS-3" : Ensure Scripts use LF 							(72)
+#		"SS-4" : Ignore Diff in premissions 					(85)
+#		"SS-5" : Binary Temporary Files 						(102)
+#		"SS-6" : Enforce LF for Shell Scripts 					(126)
+#		"SS-7" : Set Diff rulings 								(199)
+#		"SS-8" : Set Charset enforcements 						(279)
+#	}  
+
+# <!-- [SS-1]: Auto text files for LF normalization ----->		(13)
+* text=auto
+
+# <!-- [SS-2]: Treat binary files correctly ----->				(16)
+	# [SS-2.1]: Image Files #
+*.avif binary
+*.bmp binary
+*.gif binary
+*.heic binary
+*.heif binary
+*.ico binary
+*.jfif binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.svg binary
+*.tiff binary
+*.webp binary
+
+	# [SS-2.2]: Audio Files #
+*.aac binary
+*.flac binary
+*.m4a binary
+*.mp3 binary
+*.mp4 binary
+*.ogg binary
+*.wav binary
+*.wma binary
+
+	# [SS-2.3]: Video Files #
+*.3gp binary
+*.avi binary
+*.flac binary
+*.m4v binary
+*.mkv binary
+*.mov binary
+*.mpg binary
+*.mpeg binary
+*.ogv binary
+*.ts binary
+*.wav binary
+*.webm binary
+*.wmv binary
+
+	# [SS-2.4]: Additional Binary Files #
+*.ai binary
+*.cr2 binary
+*.dng binary
+*.eot binary
+*.eps binary
+*.otf binary
+*.psd binary
+*.raw binary
+*.swf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.xps binary
+
+# <!-- [SS-3]: Ensure Python scripts use LF endings ----->		(72)
+*.ipynb text eol=lf
+*.pep text eol=lf
+*.py text eol=lf
+*.pyi text eol=lf
+*.pym text eol=lf
+*.pyo text eol=lf 
+*.pyw text eol=lf
+*.pyx text eol=lf  
+*.pxd text eol=lf
+*.pyz text eol=lf
+*.whl text eol=lf
+
+# <!-- [SS-4]: Ignore differences in exe permissions ----->		(85)  
+*.apk binary
+*.bat binary 
+*.bin binary
+*.cmd binary
+*.db binary
+*.deb binary
+*.dll binary
+*.exe binary
+*.msi binary  
+*.ps1 binary
+*.rpm binary
+*.run binary
+*.sh binary
+*.shell binary
+*.so binary
+
+# <!-- [SS-5]: Binary Temporary files ----->					(102)
+	# [SS-5.1]: Temporary Bash/Shell Files  
+*.bash_history binary  
+*.log text  
+*.sh~ binary
+*.shell binary
+
+	# [SS-5.2]: Temporary Windows Batch Files  
+*.bat~ binary
+*.cmd~ binary  
+*.log text
+
+	# [SS-5.3]: Temporary PowerShell Files  
+*.log text  
+*.ps1~ binary 
+*.psd1 binary
+*.psm1 binary 
+
+	# [SS-5.4]: Temporary Python Files  
+*.log text  
+*.pyc binary
+*.pyo binary 
+__pycache__/ binary
+
+# <!-- [SS-6]: Enforce LF line-ending shell scripts ----->		(126)
+*.asp text eol=lf
+*.aspx text eol=lf
+*.bash text eol=lf
+*.bat text eol=crlf
+*.cfg text eol=lf
+*.clj text eol=lf
+*.cljs text eol=lf
+*.cmd text eol=crlf 
+*.con text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+*.cshtml text eol=lf
+*.css text eol=lf
+*.csv text eol=lf
+*.dart text eol=lf
+*.elm text eol=lf
+*.erl text eol=lf
+*.ex text eol=lf
+*.exs text eol=lf
+*.fs text eol=lf
+*.fsi text eol=lf
+*.fsx text eol=lf
+*.fsscript text eol=lf
+*.go text eol=lf
+*.gradle text eol=lf
+*.groovy text eol=lf
+*.hs text eol=lf
+*.html text eol=lf
+*.ini text eol=lf
+*.ipynb text eol=lf
+*.java text eol=lf
+*.jsp text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.json5 text eol=lf
+*.jsonc text eol=lf
+*.jsx text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.less text eol=lf
+*.log text eol=lf
+*.md text eol=lf
+*.ml text eol=lf
+*.mli text eol=lf
+*.nim text eol=lf
+*.php text eol=lf
+*.pl text eol=lf
+*.pm text eol=lf
+*.ps1 text eol=crlf
+*.psd1 text eol=crlf
+*.psm1 text eol=crlf
+*.r text eol=lf
+*.rb text eol=lf
+*.rs text eol=lf
+*.sass text eol=lf
+*.scala text eol=lf
+*.scss text eol=lf
+*.sh text eol=lf
+*.shell text eol=lf
+*.sql text eol=lf
+*.swift text eol=lf
+*.toml text eol=lf
+*.ts text eol=lf
+*.tsv text eol=lf
+*.tsx text eol=lf
+*.txt text eol=lf
+*.vbhtml text eol=lf
+*.vue text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# <!-- [SS-7I]: Set specific diffing rules ----->				(199)
+*.asp text diff=html
+*.aspx text diff=html
+*.bash text diff=shell
+*.bat text diff=batch
+*.cfg text diff=cfg
+*.clj text diff=clojure
+*.cljs text diff=clojure
+*.cmd text diff=batch
+*.con text diff=cfg
+*.conf text diff=cfg
+*.config text diff=cfg
+*.cshtml text diff=html
+*.css text diff=css
+*.csv text diff=text
+*.dart text diff=dart
+*.elm text diff=elm
+*.erl text diff=erlang
+*.ex text diff=elixir
+*.exs text diff=elixir
+*.fs text diff=fsharp
+*.fsi text diff=fsharp
+*.fsx text diff=fsharp
+*.fsscript text diff=fsharp
+*.go text diff=golang
+*.gradle text diff=groovy
+*.groovy text diff=groovy
+*.hs text diff=haskell
+*.html text diff=html
+*.ini text diff=ini
+*.ipynb text diff=ipynb
+*.java text diff=java
+*.jsp text diff=html
+*.js text diff=javascript
+*.json text diff=json
+*.json5 text diff=json
+*.jsonc text diff=json
+*.jsx text diff=javascript
+*.kt text diff=kotlin
+*.kts text diff=kotlin
+*.less text diff=css
+*.log text diff=text
+*.md text diff=markdown
+*.ml text diff=ocaml
+*.mli text diff=ocaml
+*.nim text diff=nim
+*.pep text diff=python
+*.php text diff=php
+*.pl text diff=perl
+*.pm text diff=perl
+*.ps1 text diff=powershell
+*.psd1 text diff=powershell
+*.psm1 text diff=powershell
+*.py text diff=python
+*.pyi text diff=python
+*.pym text diff=python
+*.pyw text diff=python
+*.pyx text diff=python
+*.pxd text diff=python
+*.r text diff=r
+*.rb text diff=ruby
+*.rs text diff=rust
+*.sass text diff=css
+*.scala text diff=scala
+*.scss text diff=css
+*.sh text diff=shell
+*.shell text diff=shell
+*.sql text diff=sql
+*.swift text diff=swift
+*.toml text diff=toml
+*.ts text diff=typescript
+*.tsv text diff=text
+*.tsx text diff=typescript
+*.txt text diff=text
+*.vbhtml text diff=html
+*.vue text diff=html
+*.xml text diff=xml
+*.yaml text diff=yaml
+*.yml text diff=yaml
+
+# <!-- [SS-8]: Charset enforcement for text type files ----->	(279)
+*.asp text charset=utf-8
+*.aspx text charset=utf-8
+*.bash text charset=utf-8
+*.bat text charset=utf-8
+*.cfg text charset=utf-8
+*.clj text charset=utf-8
+*.cljs text charset=utf-8
+*.cmd text charset=utf-8 
+*.con text charset=utf-8
+*.conf text charset=utf-8
+*.config text charset=utf-8
+*.cshtml text charset=utf-8
+*.css text charset=utf-8
+*.csv text charset=utf-8
+*.dart text charset=utf-8
+*.elm text charset=utf-8
+*.erl text charset=utf-8
+*.ex text charset=utf-8
+*.exs text charset=utf-8
+*.fs text charset=utf-8
+*.fsi text charset=utf-8
+*.fsx text charset=utf-8
+*.fsscript text charset=utf-8
+*.go text charset=utf-8
+*.gradle text charset=utf-8
+*.groovy text charset=utf-8
+*.hs text charset=utf-8
+*.html text charset=utf-8
+*.ini text charset=utf-8
+*.ipynb text charset=utf-8
+*.java text charset=utf-8
+*.jsp text charset=utf-8
+*.js text charset=utf-8
+*.json text charset=utf-8
+*.json5 text charset=utf-8
+*.jsonc text charset=utf-8
+*.jsx text charset=utf-8
+*.kt text charset=utf-8
+*.kts text charset=utf-8
+*.less text charset=utf-8
+*.log text charset=utf-8
+*.md text charset=utf-8
+*.ml text charset=utf-8
+*.mli text charset=utf-8
+*.nim text charset=utf-8
+*.pep text charset=utf-8  
+*.php text charset=utf-8
+*.pl text charset=utf-8
+*.pm text charset=utf-8
+*.ps1 text charset=utf-8
+*.psd1 text charset=utf-8
+*.psm1 text charset=utf-8
+*.py text charset=utf-8 
+*.pyi text charset=utf-8
+*.pym text charset=utf-8
+*.pyw text charset=utf-8 
+*.pyx text charset=utf-8 
+*.pxd text charset=utf-8
+*.r text charset=utf-8
+*.rb text charset=utf-8
+*.rs text charset=utf-8
+*.sass text charset=utf-8
+*.scala text charset=utf-8
+*.scss text charset=utf-8
+*.sh text charset=utf-8
+*.shell text charset=utf-8
+*.sql text charset=utf-8
+*.swift text charset=utf-8
+*.toml text charset=utf-8
+*.ts text charset=utf-8
+*.tsv text charset=utf-8
+*.tsx text charset=utf-8
+*.txt text charset=utf-8
+*.vbhtml text charset=utf-8
+*.vue text charset=utf-8
+*.xml text charset=utf-8
+*.yaml text charset=utf-8
+*.yml text charset=utf-8

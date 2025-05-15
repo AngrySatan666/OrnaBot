@@ -1,0 +1,179 @@
+{
+    "Self": {
+        "Build": {
+            "Age": 0,
+            "Playtime": 0,
+            "Class" : "",
+            "Level" : 0,
+            "Slots": 0,
+            "Training" : ""
+        },
+        "Equipment": {
+            "Active": {
+                "Accesory1": "",
+                "Accessory2": "",
+                "Amity": "",
+                "Head": "",
+                "Body": "",
+                "Legs": "",
+                "Primary": "",
+                "Secondary": ""
+            },
+            "Dungeon": {
+                "Accesory1": "",
+                "Accessory2": "",
+                "Amity": "",
+                "Head": "",
+                "Body": "",
+                "Legs": "",
+                "Primary": "",
+                "Secondary": ""
+            },
+            "PvP": {
+                "Accesory1": "",
+                "Accessory2": "",
+                "Amity": "",
+                "Head": "",
+                "Body": "",
+                "Legs": "",
+                "Primary": "",
+                "Secondary": ""
+            },
+            "Raids": {
+                "Accesory1": "",
+                "Accessory2": "",
+                "Amity": "",
+                "Head": "",
+                "Body": "",
+                "Legs": "",
+                "Primary": "",
+                "Secondary": ""
+            },
+            "Towers": {
+                "Accesory1": "",
+                "Accessory2": "",
+                "Amity": "",
+                "Head": "",
+                "Body": "",
+                "Legs": "",
+                "Primary": "",
+                "Secondary": ""
+            }
+        },
+        "Ranking": {
+            "Guild": {},
+            "Kingdom": {},
+            "Player": {
+                "Competitive": 0,
+                "Global": 0,
+                "Regional": 0
+            }
+        } 
+    },
+    "Records": {
+        "A Record": {
+            "Last Update": "",
+            "Total Run Time": 0,
+            "Average Session": 0,
+            "Longest Session": 0,
+            "Total Kill Rate": 0,
+            "Highest Kill Rate": 0
+        },
+        "Beastiery Record": {
+            "Followers Bought": 0,
+            "Gold Spent": 0,
+            "Orns Spent": 0
+        },
+        "Combat Record" : {
+            "Total Creature Kills": 0,
+            "Total Creature Fights": 0,
+            "Total Boss Kills": 0,
+            "Total Boss Fights": 0,
+            "Total Player Kills": 0,
+            "Total PLayer Fights": 0,
+            "Total Dungeons Entered": 0,
+            "Total Dungeons Cleared": 0,
+            "Total Monuments Entered": 0,
+            "Total Monuments Cleared": 0,
+            "Total Towers Entered": 0,
+            "Total Towers Cleared": 0
+        },
+        "Guild Record": {
+            "Circle of Anguish" : {
+                "Total Anguish Exp Earned": 0
+            },
+            "Blades of Finesse": {
+                "Total Blades Losses": 0,
+                "Total Blades Wins": 0
+            },
+            "Conquerers Guild" : {
+                "Total Conquers": 0,
+                "Total Conquer RPS Wins": 0,
+                "Total Conquer RPS Draws": 0,
+                "Total Conquer RPS Losses": 0
+            },
+            "Fishers Guild" : {
+                "Total Fish Caught": 0,
+                "Total Lines Used": 0,
+                "Total Coral Earned": 0,
+                "Total Time Fishing": 0
+            },
+            "Oracle Guild" : {
+                "Total Rituals": 0,
+                "Total Memories Completed": 0, 
+                "Total Memories Started": 0
+            },        
+            "Travelers Guild" : {
+                "Total Daily Objectives": 0,
+                "Total Weekly Objectives": 0,
+                "Total Trials": 0,
+                "Total Trials Wins": 0,
+                "Total Explorations": 0,            
+                "Total Explorations Wins": 0,
+                "Distance Travelled": 0
+            }
+        },
+        "Healing Record": {
+            "Total SHealth Used": 0,
+            "Total LHealth Used": 0,
+            "Total SMana Used": 0,
+            "Total LMana Used": 0
+        },
+        "Herbalist Record": {
+            "Potions Brewed": 0
+        },
+        "Kingdom Record": {
+            "Total Raids Entered": 0,
+            "Total Raids Cleared": 0,
+            "Total Gaunlet Fights": 0,
+            "Total Gaunlet Wins": 0,
+            "Total War Fights": 0,
+            "Total War Wins": 0
+        },
+        "Quest Record": {
+            "Total Quests": 0,
+            "Total Inn Jobs": 0,
+            "Total NPC Jobs": 0,
+            "Total Kingdom Jobs": 0,
+            "Total Town Hall Jobs": 0
+        },
+        "Shop Record": {
+            "Shops Built": 0,
+            "Gold Spent on Shop Levels": 0,
+            "Items Bought": 0,
+            "SHealth Potions Bought": 0,
+            "SMana Potions Bought": 0,
+            "LHealth Potions Bought": 0,
+            "LMana Potions Bought": 0,
+            "Torches Bought": 0,
+            "Gold Spent": 0,
+            "Items Sold": 0,
+            "Gold Earned": 0
+        },
+        "Smithing Record": {
+            "Total Smithings": 0,
+            "Gold Spent": 0,
+            "Whetstones Used": 0
+        }
+    }
+}
