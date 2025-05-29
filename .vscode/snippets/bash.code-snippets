@@ -1,0 +1,8 @@
+"_dir_shell": {
+    "scope": "shellscript",
+    "prefix": "_dir",
+    "body": [
+        "DIR=$(dirname \"$(realpath \"$0\")\")"
+    ],
+    "description": "Snippet to define the DIR variable for the current script's directory"
+}

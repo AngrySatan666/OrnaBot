@@ -1,0 +1,8 @@
+"_dir_cmd": {
+    "scope": "bat",
+    "prefix": "_dir",
+    "body": [
+        "SET DIR=%~dp0"
+    ],
+    "description": "Snippet to define the DIR variable for the current batch script's directory"
+}

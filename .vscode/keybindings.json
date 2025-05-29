@@ -1,0 +1,20 @@
+[
+    {
+        "key": "ctrl+insert",
+        "command": "editor.action.inlineSuggest.commit",
+        "when": "inInlineEditsPreviewEditor"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.openSettings2"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.openWorkspaceSettings"
+    },
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'powershell'"
+    }
+]

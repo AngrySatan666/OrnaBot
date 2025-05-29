@@ -1,0 +1,8 @@
+"_dir_powershell": {
+    "scope": "powershell",
+    "prefix": "_dir",
+    "body": [
+        "$PSScriptRoot"
+    ],
+    "description": "Snippet to define the script's directory in PowerShell"
+}

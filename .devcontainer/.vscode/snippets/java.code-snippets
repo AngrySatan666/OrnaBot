@@ -1,0 +1,9 @@
+"_dir_js": {
+    "scope": "javascript",
+    "prefix": "_dir",
+    "body": [
+        "const path = require('path');",
+        "const _dir = path.dirname(__filename);"
+    ],
+    "description": "Snippet to define the _dir variable for the current file's directory in JavaScript"
+}
