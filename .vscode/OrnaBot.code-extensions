@@ -1,0 +1,121 @@
+{
+    "extensions": [
+        // === C/C++ Tools ===
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cpptools-themes",
+        "ms-vscode.makefile-tools",
+
+        // === CMake ===
+        "ms-vscode.cmake-tools",
+
+        // === Containers, DevOps, & Remote ===
+        "henriiik.docker-linter",
+        "ms-azuretools.vscode-containers",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode.remote-explorer",
+
+        // === Formatting & Linting ===
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "ms-python.black-formatter",
+        "ms-python.pylint",
+        "redhat.vscode-yaml",
+        "shardulm94.trailing-spaces",
+        "streetsidesoftware.code-spell-checker",
+
+        // === Git Tools ===
+        "alefragnani.bookmarks",
+        "donjayamanne.githistory",
+        "mccarter.start-git-bash",
+        "mhutchie.git-graph",
+
+        // === GitHub & Collaboration ===
+        "Specstory.specstory-vscode",
+        "github.codespaces",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.vscode-github-actions",
+        "ms-vsliveshare.vsliveshare",
+
+        // === Go ===
+        "golang.go",
+
+        // === Markdown & Docs ===
+        "bierner.github-markdown-preview",
+        "bierner.markdown-checkbox",
+        "bierner.markdown-emoji",
+        "bierner.markdown-footnotes",
+        "bierner.markdown-mermaid",
+        "bierner.markdown-preview-github-styles",
+        "bierner.markdown-shiki",
+        "bierner.markdown-yaml-preamble",
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        "davidanson.vscode-markdownlint",
+        "rogwilco.defaults-vscode-markdown",
+        "yzhang.markdown-all-in-one",
+
+        // === Miscellaneous & Productivity ===
+        "bierner.markdown-shiki",
+        "hbenl.vscode-test-explorer",
+        "ms-vscode.hexeditor",
+        "ms-vscode.js-debug-nightly",
+        "ms-vscode.test-adapter-converter",
+        "ms-vscode.vscode-websearchforcopilot",
+
+        // === Python ===
+        "076923.python-image-preview",
+        "NilsSoderman.ue-python",
+        "SonderMX.python-kits",
+        "benspaulding.python-manifest-template",
+        "kaih2o.python-resource-monitor",
+        "littlefoxteam.vscode-python-test-adapter",
+        "ms-python.debugpy",
+        "ms-python.isort",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.vscode-python-envs",
+
+        // === Python Data Science & Jupyter ===
+        "ms-toolsai.datawrangler",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.tensorboard",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.vscode-jupyter-slideshow",
+
+        // === SQL & Databases ===
+        "alexcvzz.vscode-sqlite",
+        "ms-ossdata.vscode-pgsql",
+        "mtxr.sqltools",
+        "qwtel.sqlite-viewer",
+
+        // === TypeScript ===
+        "ms-vscode.vscode-typescript-next",
+
+        // === Web Development & Utilities ===
+        "VisualStudioExptTeam.vscodeintellicode",
+        "aessoft.aessoft-class-autocomplete",
+        "angelmaneuver.wallpaper-setting",
+        "george-alisson.html-preview-vscode",
+        "hyperoot.settings-organizer",
+        "kodu-ai.claude-dev-experimental",
+        "liriliri.vscode-settings-editor",
+        "ms-vscode.live-server",
+        "ms-vscode.wordcount",
+        "njpwerner.autodocstring",
+        "ragavks.recommended-settings",
+        "ritwickdey.liveserver",
+        "sidthesloth.html5-boilerplate",
+        "tamasfe.even-better-toml",
+        "zignd.html-css-class-completion"
+    ]
+}

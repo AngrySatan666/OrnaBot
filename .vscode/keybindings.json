@@ -5,8 +5,12 @@
         "when": "inInlineEditsPreviewEditor"
     },
     {
-        "key": "ctrl+alt+s",
-        "command": "workbench.action.openSettings2"
+        "key": "alt+b",
+        "command": "bookmarks.toggle"
+    },
+    {
+        "key": "alt+c",
+        "command": "workbench.action.chat.open"
     },
     {
         "key": "ctrl+alt+o",
@@ -16,5 +20,17 @@
         "key": "ctrl+shift+alt+s",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && !editorReadonly && editorLangId == 'powershell'"
+    },
+    {
+        "key": "ctrl+alt++shift+s",
+        "command": "workbench.action.openSettings2"
+    },
+    {
+        "key": "ctrl+alt+shift+k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "shift+return",
+        "command": "-"
     }
 ]

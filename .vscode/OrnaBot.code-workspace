@@ -1,0 +1,1191 @@
+// Intellicap Code Workspace Configuration
+{
+    //1.0: Local Folders
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    //2.0: Workspace Settings
+    "settings": {
+        //2.1: WorkBench & Breadcrumbs
+        "wallpaper-setting.favorite.ondemand.select": "",
+        "workbench.colorTheme": "Default Dark Modern",
+        "workbench.cloudChanges.autoResume": "onReload",
+        "workbench.editor.showIcons": true,
+        "workbench.editor.showTabs": "multiple",
+        "workbench.editor.tabSizingFixedMaxWidth": 80,
+        "workbench.editor.tabSizingFixedMinWidth": 40,
+        "workbench.settings.editor": "json",
+        "workbench.settings.openDefaultSettings": true,
+        "workbench.secondarySideBar.showLabels": true,
+        "workbench.sideBar.location": "left",
+        "workbench.tree.stickyScrollMaxItemCount": 8,
+        "workbench.startupEditor": "none",
+        "workbench.statusBar.visible": true,
+        "breadcrumbs.enabled": true,
+        "breadcrumbs.showArrays": true,
+        "breadcrumbs.showBooleans": true,
+        "breadcrumbs.showClasses": true,
+        "breadcrumbs.showConstructors": true,
+        "breadcrumbs.showEnums": true,
+        "breadcrumbs.showEvents": true,
+        "breadcrumbs.showFiles": true,
+        "breadcrumbs.showFunctions": true,
+        "breadcrumbs.showInterfaces": true,
+        "breadcrumbs.showMethods": true,
+        "breadcrumbs.showKeys": true,
+        "breadcrumbs.showNamespaces": true,
+        "breadcrumbs.showModules": true,
+        "breadcrumbs.showNumbers": true,
+        "breadcrumbs.showNull": true,
+        "breadcrumbs.showOperators": true,
+        "breadcrumbs.showObjects": true,
+        "breadcrumbs.showPackages": true,
+        "breadcrumbs.showStrings": true,
+        "breadcrumbs.showStructs": true,
+        "breadcrumbs.showTypeParameters": true,
+        "breadcrumbs.showVariables": true,
+        "breadcrumbs.showConstants": true,
+        "breadcrumbs.showEnumMembers": true,
+        "breadcrumbs.showFields": true,
+        "breadcrumbs.showProperties": true,
+        "workbench.localHistory.maxFileEntries": 5000,
+        "workbench.localHistory.maxFileSize": 1024,
+
+        //2.2: Editor
+        "editor.tabCompletion": "off",
+        "editor.renderControlCharacters": true,
+        "editor.fontLigatures": true,
+        "editor.codeLens": true,
+        "editor.cursorBlinking": "blink",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 0,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.indentSize": "tabSize",
+        "editor.inlineSuggest.edits.showCollapsed": true,
+        "editor.inlineSuggest.edits.renderSideBySide": "never",
+        "editor.renderWhitespace": "all",
+        "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+        "editor.minimap.renderCharacters": true,
+        "editor.minimap.autohide": true,
+        "editor.minimap.enabled": true,
+        "editor.minimap.maxColumn": 120,
+        "editor.guides.bracketPairs": true,
+        "editor.inlineSuggest.showToolbar": "onHover",
+        "editor.inlineSuggest.enabled": true,
+        "editor.quickSuggestionsDelay": 0,
+        "editor.screenReaderAnnounceInlineSuggestion": false,
+        "editor.stickyScroll.enabled": true,
+        "editor.stickyScroll.maxLineCount": 5,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.showUnused": true,
+        "editor.matchBrackets": "always",
+        "editor.autoClosingBrackets": "languageDefined",
+        "editor.bracketPairColorization.enabled": true,
+        "editor.fontSize": 16,
+        "editor.defaultFormatter": "GitHub.copilot",
+        "editor.fontFamily": "Arial Unicode MS, Consolas, 'Courier New', monospace",
+        "editor.suggest.insertMode": "replace",
+        "editor.snippetSuggestions": "top",
+        "editor.suggest.preview": true,
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.scrollbar.verticalScrollbarSize": 21,
+        "editor.scrollbar.horizontalScrollbarSize": 16,
+        "editor.mouseWheelZoom": true,
+        "editor.trimAutoWhitespace": true,
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "on"
+        },
+        "diffEditor.codeLens": true,
+        "diffEditor.maxComputationTime": 0,
+        "diffEditor.maxFileSize": 1024,
+
+        //2.3: Files, Explore, & Search
+        "files.autoSave": "onFocusChange",
+        "files.autoSaveWhenNoErrors": true,
+        "files.associations": {
+            "copyright": "plaintext",
+            "**.code-extensions": "jsonc",
+            "**.gitlinks": "plaintext"
+        },
+        "files.watcherInclude": [],
+        "files.exclude": {
+            "**/.DS_Store": false,
+            "**/.git": false,
+            "**/.hg": false,
+            "**/.svn": false,
+            "**/Thumbs.db": false,
+            "desktop.ini": true
+        },
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/.hg/store/**": true
+        },
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespaceInRegexAndStrings": true,
+        "files.enableTrash": true,
+        "explorer.fileNesting.patterns": {
+                "*.bat": "${capture}.bat.*",
+                "*.c": "${capture}.h, ${capture}.o, ${capture}.obj",
+                "*.cpp": "${capture}.h, ${capture}.hpp, ${capture}.o, ${capture}.obj",
+                "*.css": "${capture}.scss, ${capture}.sass, ${capture}.less, ${capture}.css.map",
+                "*.db": "${capture}.${extname}-*",
+                "*.db3": "${capture}.${extname}-*",
+                "*.env": "${capture}.env.*",
+                "*.go": "${capture}_test.go",
+                "*.h": "${capture}.c, ${capture}.cpp",
+                "*.html": "${capture}.spec.ts, ${capture}.test.ts, ${capture}.test.js, ${capture}.spec.js",
+                "*.ipynb": "${capture}.ipynb-checkpoint",
+                "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+                "*.json": "${capture}.schema.json",
+                "*.jsx": "${capture}.js",
+                "*.less": "${capture}.css, ${capture}.css.map",
+                "*.md": "${capture}.mdx",
+                "*.php": "${capture}.blade.php",
+                "*.py": "${capture}.pyc, ${capture}.pyo, ${capture}.pyd",
+                "*.rs": "${capture}_test.rs",
+                "*.s3db": "${capture}.${extname}-*",
+                "*.sdb": "${capture}.${extname}-*",
+                "*.scss": "${capture}.css, ${capture}.css.map",
+                "*.sh": "${capture}.sh.*",
+                "*.sqlite": "${capture}.${extname}-*",
+                "*.sqlite3": "${capture}.${extname}-*",
+                "*.tsx": "${capture}.ts",
+                "*.ts": "${capture}.js",
+                "*.vue": "${capture}.css, ${capture}.scss, ${capture}.spec.js, ${capture}.test.js",
+                "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+                "tsconfig.json": "tsconfig.*.json"
+        },
+        "explorer.confirmDelete": false,
+        "explorer.confirmDragAndDrop": false,
+        "explorer.fileNesting.enabled": true,
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/*.code-search": true
+        },
+
+        //2.4: Terminal
+        "terminal.integrated.hideOnStartup": "never",
+        "terminal.integrated.bellDuration": 1000,
+        "terminal.integrated.allowChords": true,
+        "terminal.integrated.defaultLocation": "view",
+        "terminal.integrated.enableFileLinks": "on",
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "terminal.integrated.tabs.defaultIcon": "terminal",
+        "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+        "terminal.integrated.sendKeybindingsToShell": true,
+
+        //2.4.1: Windows
+        "terminal.integrated.profiles.windows": {
+            "Git Bash": {
+                "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+            },
+            "Git CLI": {
+                "path": "C:\\Program Files\\Git\\cmd\\git.exe"
+            },
+            "Command Prompt": {
+                "path": "C:\\Windows\\System32\\cmd.exe"
+            },
+            "PowerShell": {
+                "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+            },
+            "Python": {
+                "path": "C:\\Users\\angry\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+            },
+            "Java": {
+                "path": "C:\\Program Files\\Java\\jdk-21.0.2\\bin\\java.exe"
+            },
+            "Go" : {
+                "path": "C:\\Users\\angry\\go\\bin\\gopls.exe"
+            },
+            "ADB": {
+                "path": "C:\\Users\\angry\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe"
+            },
+            "Node.js": {
+                "path": "C:\\Program Files\\nodejs\\node.exe"
+            },
+            "NGROK": {
+                "path": "C:\\Users\\angry\\ngrok\\ngrok.exe"
+            },
+            "Cloudflared": {
+                "path": "C:\\Users\\angry\\cloudflared\\cloudflared.exe"
+            }
+        },
+        "terminal.integrated.env.windows": {
+            "Git Bash_Dir": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "Git Bash_EXE": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "Command Prompt_Dir": "C:\\Windows\\System32\\cmd.exe",
+            "Command Prompt_EXE": "C:\\Windows\\System32\\cmd.exe",
+            "PowerShell_Dir": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "PowerShell_EXE": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "Python_Dir": "C:\\Users\\angry\\AppData\\Local\\Programs\\Python\\Python310",
+            "Python_EXE": "C:\\Users\\angry\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+            "Java_Dir": "C:\\Program Files\\Java\\jdk-21.0.2",
+            "Java_EXE": "C:\\Program Files\\Java\\jdk-21.0.2\\bin\\java.exe",
+            "GO_Dir": "C:\\Users\\angry\\go",
+            "GO_EXE": "C:\\Users\\angry\\go\\bin\\gopls.exe",
+            "ADB_Dir": "C:\\Users\\angry\\AppData\\Local\\Android\\Sdk\\platform-tools",
+            "ADB_EXE": "C:\\Users\\angry\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+            "Node.js_Dir": "C:\\Program Files\\nodejs",
+            "Node.js_EXE": "C:\\Program Files\\nodejs\\node.exe",
+            "NGROK_Dir": "C:\\Users\\angry\\ngrok",
+            "NGROK_EXE": "C:\\Users\\angry\\ngrok\\ngrok.exe",
+            "Cloudflared_Dir": "C:\\Users\\angry\\cloudflared",
+            "Cloudflared_EXE": "C:\\Users\\angry\\cloudflared\\cloudflared.exe"
+        },
+
+        //2.4.2: Linux
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            },
+            "zsh": {
+                "path": "/bin/zsh"
+            },
+            "fish": {
+                "path": "/usr/bin/fish"
+            },
+            "python": {
+                "path": "/usr/bin/python3"
+            },
+            "java": {
+                "path": "/usr/bin/java"
+            },
+            "go": {
+                "path": "/usr/local/go/bin/go"
+            },
+            "adb": {
+                "path": "/usr/bin/adb"
+            },
+            "nodejs": {
+                "path": "/usr/bin/node"
+            },
+            "ngrok": {
+                "path": "/usr/local/bin/ngrok"
+            },
+            "cloudflared": {
+                "path": "/usr/local/bin/cloudflared"
+            }
+        },
+        "terminal.integrated.env.linux": {
+            "BASH_Dir": "/bin/bash",
+            "BASH_EXE": "/bin/bash",
+            "ZSH_Dir": "/bin/zsh",
+            "ZSH_EXE": "/bin/zsh",
+            "FISH_Dir": "/usr/bin/fish",
+            "FISH_EXE": "/usr/bin/fish",
+            "Python_Dir": "/usr/bin/python3",
+            "Python_EXE": "/usr/bin/python3",
+            "Java_Dir": "/usr/bin/java",
+            "Java_EXE": "/usr/bin/java",
+            "GO_Dir": "/usr/local/go/bin/go",
+            "GO_EXE": "/usr/local/go/bin/go",
+            "ADB_Dir": "/usr/bin/adb",
+            "ADB_EXE": "/usr/bin/adb",
+            "Node.js_Dir": "/usr/bin/node",
+            "Node.js_EXE": "/usr/bin/node",
+            "NGROK_Dir": "/usr/local/bin/ngrok",
+            "NGROK_EXE": "/usr/local/bin/ngrok",
+            "Cloudflared_Dir": "/usr/local/bin/cloudflared",
+            "Cloudflared_EXE": "/usr/local/bin/cloudflared"
+        },
+
+        //2.5 Github
+        "github.codespaces.defaultExtensions": [
+            "GitHub.codespaces",
+            "GitHub.vscode-pull-request-github",
+            "Github.copilot"
+        ],
+        "github.copilot.nextEditSuggestions.enabled": true,
+        "github.gitAuthentication": true,
+        "github.copilot.nextEditSuggestions.fixes": true,
+        "github.copilot.chat.codesearch.enabled": true,
+        "github.copilot.chat.agent.thinkingTool": true,
+        "github.copilot.chat.completionContext.typescript.mode": "on",
+        "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+        "github.copilot.chat.languageContext.typescript.enabled": true,
+        "github.copilot.enable": {
+            "*": true,
+            "plaintext": false,
+            "markdown": true,
+            "scminput": false,
+            "python": true,
+            "ruby": true,
+            "rust": true,
+            "php": true,
+            "makefile": true,
+            "lua": true,
+            "less": true,
+            "jsonc": true,
+            "json": true,
+            "javascript": true,
+            "java": true,
+            "html": true,
+            "go": true,
+            "css": true,
+            "bat": true,
+            "diff": true,
+            "cpp": true,
+            "c": true,
+            "csharp": true,
+            "sql": true,
+            "typescript": true,
+            "xml": true,
+            "yaml": true,
+            "shellscript": true,
+            "powershell": false
+        },
+        "git.enabled": true,
+        "git.showActionButton": {
+            "commit": true,
+            "publish": true,
+            "sync": true
+        },
+        "git.statusLimit": 100000,
+        "git.showProgress": true,
+        "git.openDiffOnClick": true,
+        "git-graph.commitDetailsView.autoCenter": true,
+        "git-graph.commitDetailsView.fileView.fileTree.compactFolders": true,
+        "git-graph.commitDetailsView.fileView.type": "File Tree",
+        "git-graph.markdown": true,
+        "git.enableSmartCommit": true,
+        "git.defaultBranchName": "master",
+        "git.detectSubmodules": true,
+
+        //2.6: MarkDown
+        "markdownlint.config": {
+            "no-inline-html": false,
+            "no-trailing-spaces": true,
+            "no-multiple-blanks": true,
+            "no-space-in-links": true
+        },
+        "markdown.validate.unusedLinkDefinitions.enabled": "hint",
+        "markdown.editor.filePaste.enabled": "smart",
+        "markdown.editor.filePaste.copyIntoWorkspace": "mediaFiles",
+        "markdown.preview.linkify": true,
+        "markdown.preview.breaks": true,
+        "markdown.preview.scrollEditorWithPreview": true,
+        "markdown.preview.scrollPreviewWithEditor": true,
+        "markdown.preview.doubleClickToSwitchToEditor": true,
+        "markdown.preview.fontSize": 14,
+        "markdown-checkboxes.enable": true,
+        "markdown-checkboxes.label": true,
+        "markdown-mermaid.maxTextSize": 14,
+        "markdown-mermaid.darkModeTheme": "dark",
+        "markdown-mermaid.lightModeTheme": "base",
+        "markdown.extension.completion.enabled": true,
+        "markdown.extension.math.enabled": true,
+        "markdown.extension.toc.updateOnSave": true,
+        "markdown.updateLinksOnFileMove.enabled": "always",
+        "markdown.updateLinksOnFileMove.enableForDirectories": true,
+        "markdown.validate.fileLinks.enabled": "warning",
+        "markdown.links.openLocation": "beside",
+        "markdown.extension.orderedList.autoRenumber": true,
+        "markdown.extension.preview.autoShowPreviewToSide": true,
+        "markdown.math.enabled": true,
+        "markdown.validate.enabled": false,
+        "markdown.styles": [],
+
+        //2.7: Python
+        "python-envs.defaultEnvManager": "ms-python.python:system",
+        "python-envs.pythonProjects": [],
+        "python.analysis.logLevel": "Trace",
+        "python.defaultInterpreterPath": "c:\\Program Files\\Python312\\python.exe",
+        "python.testing.debugPort": 3000,
+        "python.testing.pytestEnabled": true,
+        "python.testing.pytestArgs": [],
+        "python.analysis.addHoverSummaries": true,
+        "python.analysis.diagnosticMode": "workspace",
+        "python.analysis.enablePytestSupport": true,
+        "python.analysis.typeEvaluation.analyzeUnannotatedFunctions": true,
+        "python.analysis.userFileIndexingLimit": 2000,
+        "ue-python.environment.addWorkspaceToPath": true,
+        "ue-python.strictPort": false,
+        "ue-python.attach.port": 6868,
+        "ue-python.execute.name": "__main__",
+        "ue-python.execute.showOutput": true,
+        "ue-python.remote.commandEndpoint": "127.0.0.1:6776",
+        "ue-python.remote.multicastBindAddress": "127.0.0.1",
+        "ue-python.remote.multicastGroupEndpoint": "239.0.0.1:6766",
+        "ue-python.remote.multicastTTL": 0,
+        "ue-python.remote.timeout": 7000,
+
+        //2.8: CSpell
+        "cSpell.suggestionsTimeout": 1000,
+        "cSpell.blockCheckingWhenLineLengthGreaterThan": 200,
+        "cSpell.caseSensitive": false,
+        "cSpell.enabled": true,
+        "cSpell.enabledFileTypes": {
+            "*": true,
+            "markdown": true
+        },
+        "cSpell.files": [],
+        "cSpell.dictionaries": [],
+        "cSpell.customDictionaries": {
+            "Intellicap": {
+                "name": "Intellicap",
+                "description": "Custom dictionary for Intellicap project",
+                "path": "./.vscode/Intellicap.dic",
+            }
+        },
+        "cSpell.dictionaryDefinitions": [],
+        "cSpell.words": [
+            "AngrySatan",
+            "AngrySatan666",
+            "Intellicap"
+        ],
+        "cSpell.ignoreWords": [],
+        "cSpell.ignorePaths": [
+            "package-lock.json",
+            "node_modules",
+            "vscode-extension",
+            ".git/{info,lfs,logs,refs,objects}/**",
+            ".git/{index,*refs,*HEAD}",
+            ".vscode-insiders",
+            ".vscode"
+        ],
+        "cSpell.flagWords": [
+            "fuck",
+            "bitch",
+            "ass",
+            "gak"
+        ],
+        "cSpell.suggestionNumChanges": 5,
+        "cSpell.numSuggestions": 5,
+        "cSpell.minWordLength": 3,
+        "cSpell.maxNumberOfProblems": 10000,
+        "cSpell.language": "en",
+
+        //2.9 CMAKE / Makefile
+        "makefile.configureOnOpen": true,
+        "makefile.loggingLevel": "Verbose",
+        "makefile.extensionLog": "Verbose",
+        "makefile.buildBeforeLaunch": true,
+        "makefile.clearOutputBeforeBuild": true,
+        "makefile.configureAfterCommand": true,
+        "makefile.ignoreDirectoryCommands": true,
+        "cmake.defaultVariants": {
+            "buildType": {
+                "default": "debug",
+                "description": "The build type.",
+                "choices": {
+                        "debug": {
+                        "short": "Debug",
+                        "long": "Disable optimizations - include debug information.",
+                        "buildType": "Debug"
+                        },
+                        "release": {
+                        "short": "Release",
+                        "long": "Optimize for speed - exclude debug information.",
+                        "buildType": "Release"
+                        },
+                        "minsize": {
+                        "short": "MinSizeRel",
+                        "long": "Optimize for smallest binary size - exclude debug information.",
+                        "buildType": "MinSizeRel"
+                        },
+                        "reldeb": {
+                        "short": "RelWithDebInfo",
+                        "long": "Optimize for speed - include debug information.",
+                        "buildType": "RelWithDebInfo"
+                        },
+                        "unspecified": {
+                        "short": "Unspecified",
+                        "long": "Let CMake pick the default build type.",
+                        "buildType": "Unspecified"
+                        }
+                }
+            }
+        },
+
+        //2.10: CPP Tools
+        "C_Cpp.intelliSenseCacheSize": 20000,
+        "C_Cpp.intelliSenseMemoryLimit": 10000,
+        "C_Cpp.clang_format_sortIncludes": true,
+        "C_Cpp.copilotHover": "enabled",
+        "C_Cpp.errorSquiggles": "enabled",
+        "C_Cpp.formatting": "default",
+        "C_Cpp.vcFormat.indent.namespaceContents": true,
+        "C_Cpp.markdownInComments": "subsetEnabled",
+        "C_Cpp.files.exclude": {
+            "**/.vscode": true,
+            "**/.vs": true
+        },
+
+        //2.11: Format & Linting
+        "pylint.args": ["--rcfile=${workspaceFolder}/.pylintrc"],
+        "eslint.enable": true,
+        "eslint.lintTask.enable": false,
+        "eslint.format.enable": true,
+        "eslint.codeAction.showDocumentation": {
+            "enable": true
+        },
+        "eslint.probe": [
+            "astro",
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
+            "html",
+            "mdx",
+            "vue",
+            "markdown",
+            "json",
+            "jsonc"
+        ],
+        "pylint.severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+
+        //2.12: Prettier
+        "prettier.tabWidth": 4,
+        "prettier.printWidth": 10000,
+        "prettier.bracketSameLine": true,
+        "prettier.htmlWhitespaceSensitivity": "strict",
+        "prettier.enable": true,
+        "prettier.useEditorConfig": true,
+        "prettier.enableDebugLogs": true,
+        "prettier.endOfLine": "lf",
+        "prettier.trailingComma": "es5",
+        "prettier.useTabs": false,
+
+        //2.13: Auto Close Tag
+        "auto-close-tag.enableAutoCloseTag": true,
+        "auto-close-tag.activationOnLanguage": [
+            "xml",
+            "php",
+            "blade",
+            "ejs",
+            "jinja",
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
+            "plaintext",
+            "markdown",
+            "vue",
+            "liquid",
+            "erb",
+            "lang-cfml",
+            "cfml",
+            "HTML (EEx)",
+            "HTML (Eex)",
+            "plist"
+        ],
+        "auto-close-tag.disableOnLanguage": [],
+
+        //2.14: Auto Rename Tag
+        "auto-rename-tag.activationOnLanguage": [
+            "html"
+        ],
+
+        //2.15: YAML
+        "yaml.format.enable": true,
+        "yaml.validate": true,
+        "yaml.completion": true,
+        "yaml.schemaStore.enable": true,
+
+        //2.16: Trailing Spaces
+        "trailing-spaces.trimOnSave": true,
+        "trailing-spaces.includeEmptyLines": true,
+
+        //2.17: JAVA
+        "javascript.suggest.names": true,
+        "js/ts.hover.maximumLength": 1000,
+        "javascript.autoClosingTags": true,
+        "javascript.format.enable": true,
+        "javascript.inlayHints.parameterTypes.enabled": true,
+        "javascript.preferences.organizeImports": {
+            "enabled": true,
+            "sortImports": true
+        },
+        "javascript.suggest.autoImports": true,
+        "javascript.suggest.enabled": true,
+        "javascript.suggest.completeJSDocs": true,
+        "javascript.suggestionActions.enabled": true,
+
+        //2.18: JSON
+        "json.format.enable": true,
+        "json.validate.enable": true,
+        "json.schemas": [],
+
+        //2.19: Node.js
+        "npm.autoDetect": "on",
+
+        //2.20: PowerShell
+        "powershell.buttons.showRunButtons": true,
+        "powershell.codeFormatting.autoCorrectAliases": true,
+
+        //2.21: SQL
+        "sqlite.databaseExtensions": [
+            "db",
+            "db3",
+            "sdb",
+            "s3db",
+            "sqlite",
+            "sqlite3"
+        ],
+        "sqlite.logLevel": "DEBUG",
+        "sqlite.sqlite3": "sqlite3",
+        "sqltools.completionLanguages": [
+            "sql"
+        ],
+
+        //2.22: TypeScript
+        "typescript.suggest.enabled": true,
+        "typescript.suggest.includeCompletionsForImportStatements": true,
+        "typescript.autoClosingTags": true,
+        "typescript.format.enable": true,
+
+        //2.23: Vs Tools
+        "vsintellicode.java.completionsEnabled": true,
+        "vsintellicode.typescript.completionsEnabled": true,
+        "vsintellicode.python.completionsEnabled": true,
+        "vsintellicode.sql.completionsEnabled": true,
+        "vsintellicode.modify.editor.suggestSelection": "enabled",
+
+        //2.24: WSL
+        "remote.WSL.debug": true,
+        "remote.WSL.useShellEnvironment": true,
+
+        //2.25: BookMarks
+        "bookmarks.saveBookmarksInProject": true,
+        "bookmarks.useWorkaroundForFormatters": true,
+        "bookmarks.label.suggestion": "useWhenSelected",
+        "bookmarks.sideBar.countBadge": "all",
+        "bookmarks.sideBar.expanded": true,
+        "bookmarks.experimental.enableNewStickyEngine": true,
+        "bookmarks.keepBookmarksOnLineDelete": true,
+        "bookmarks.showCommandsInContextMenu": true,
+        "bookmarks.multicursor.toggleMode": "eachLineIndependently",
+
+        //2.26: HTML
+        "html.preview.scrollEditorWithPreview": true,
+        "html.preview.doubleClickToSwitchToEditor": true,
+        "html.hover.references": true,
+        "html.hover.documentation": true,
+        "html.format.enable": true,
+
+        //2.27: CSS
+        "css.completion.completePropertyWithSemicolon": true,
+        "css.completion.triggerPropertyValueCompletion": true,
+        "css.format.newlineBetweenRules": true,
+        "css.format.newlineBetweenSelectors": true,
+        "css.format.preserveNewLines": true,
+        "css.format.spaceAroundSelectorSeparator": true,
+        "css.hover.documentation": true,
+        "css.hover.references": true,
+        "css.validate": true,
+        "css.lint.emptyRules": "warning",
+        "css.lint.duplicateProperties": "warning",
+        "css.lint.hexColorLength": "error",
+        "less.completion.completePropertyWithSemicolon": true,
+        "less.format.newlineBetweenRules": true,
+        "less.format.newlineBetweenSelectors": true,
+        "less.format.preserveNewLines": true,
+        "less.format.spaceAroundSelectorSeparator": false,
+        "less.hover.documentation": true,
+        "less.hover.references": true,
+        "less.validate": true,
+        "less.lint.emptyRules": "warning",
+        "less.lint.duplicateProperties": "warning",
+        "less.lint.hexColorLength": "error",
+
+        //3.0: Language Overrides
+        "[bat]": {},
+        "[bibtex]": {},
+        "[binary]": {},
+        "[c]": {
+            "editor.wordBasedSuggestions": "off",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.stickyScroll.defaultModel": "foldingProviderModel",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[chatmode]":  {
+            "editor.unicodeHighlight.ambiguousCharacters": false,
+            "editor.unicodeHighlight.invisibleCharacters": false,
+            "diffEditor.ignoreTrimWhitespace": false
+        },
+        "[clojure]":  {
+            "diffEditor.ignoreTrimWhitespace": false
+        },
+        "[cmake]": {},
+        "[cmake-cache]": {},
+        "[coffeescript]": {
+            "diffEditor.ignoreTrimWhitespace": false,
+            "editor.defaultColorDecorators": "never"
+        },
+        "[compose]": {},
+        "[cpp]":  {
+            "editor.wordBasedSuggestions": "off",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.stickyScroll.defaultModel": "foldingProviderModel",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[csharp]": {
+            "editor.maxTokenizationLineLength": 2500
+        },
+        "[css]": {
+            "editor.suggest.insertMode": "replace",
+            "cSpell.fixSpellingWithRenameProvider": false
+        },
+        "[cuda-cpp]": {
+            "editor.wordBasedSuggestions": "off",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.stickyScroll.defaultModel": "foldingProviderModel",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[dart]": {},
+        "[db]": {},
+        "[diff]": {},
+        "[dockercompose]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 2,
+            "editor.autoIndent": "advanced",
+            "editor.quickSuggestions": {
+                "other": true,
+                "comments": false,
+                "strings": true
+            }
+        },
+        "[dockerfile]": {
+            "editor.quickSuggestions": {
+            "strings": true
+            }
+        },
+        "[fsharp]": {
+            "diffEditor.ignoreTrimWhitespace": false
+        },
+        "[git-commit]": {
+            "editor.rulers": [
+                50,
+                72
+            ],
+            "editor.wordWrap": "off",
+            "workbench.editor.restoreViewState": false
+        },
+        "[git-rebase]": {
+            "workbench.editor.restoreViewState": false
+        },
+        "[github-actions-workflow]": {},
+        "[go]": {
+            "editor.insertSpaces": false,
+            "editor.formatOnSave": true,
+            "editor.codeActionsOnSave": {
+                "source.organizeImports": "explicit"
+            }
+        },
+        "[go.mod]": {},
+        "[go.sum]": {},
+        "[go.work]": {},
+        "[graphql]": {},
+        "[groovy]": {},
+        "[handlebars]": {
+            "editor.suggest.insertMode": "replace"
+        },
+        "[hlsl]": {},
+        "[html]": {
+            "editor.suggest.insertMode": "replace"
+        },
+        "[ini]": {},
+        "[instructions]": {
+            "editor.unicodeHighlight.ambiguousCharacters": false,
+            "editor.unicodeHighlight.invisibleCharacters": false,
+            "diffEditor.ignoreTrimWhitespace": false
+        },
+        "[jade]": {
+            "diffEditor.ignoreTrimWhitespace": false
+        },
+        "[java]": {},
+        "[javascript]": {
+            "editor.maxTokenizationLineLength": 2500
+        },
+        "[javascriptreact]": {},
+        "[jinja]": {},
+        "[json]": {
+            "editor.quickSuggestions": {
+                "strings": true
+            },
+            "editor.suggest.insertMode": "replace"
+        },
+        "[jsonc]": {
+            "editor.quickSuggestions": {
+                "strings": true
+            },
+            "editor.suggest.insertMode": "replace"
+        },
+        "[jsonl]": {
+            "editor.quickSuggestions": {
+                "strings": true
+            },
+            "editor.suggest.insertMode": "replace"
+        },
+        "[julia]": {
+            "editor.defaultColorDecorators": "never"
+        },
+        "[juliamarkdown]": {},
+        "[kotlin]": {},
+        "[latex]":{},
+        "[less]": {
+            "editor.suggest.insertMode": "replace"
+        },
+        "[log]": {},
+        "[lua]": {},
+        "[makefile]": {
+            "editor.insertSpaces": false
+        },
+        "[markdown]": {
+            "editor.unicodeHighlight.ambiguousCharacters": false,
+            "editor.unicodeHighlight.invisibleCharacters": false,
+            "diffEditor.ignoreTrimWhitespace": false,
+            "editor.wordWrap": "on",
+            "editor.quickSuggestions": {
+                "comments": "off",
+                "strings": "off",
+                "other": "off"
+            },
+            "cSpell.fixSpellingWithRenameProvider": true,
+            "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+            "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
+        },
+        "[mermaid]": {},
+        "[objective-c]": {},
+        "[objective-cpp]": {},
+        "[perl]": {},
+        "[php]": {},
+        "[pip-requirements]": {},
+        "[plaintext]": {
+            "editor.unicodeHighlight.ambiguousCharacters": false,
+            "editor.unicodeHighlight.invisibleCharacters": false
+        },
+        "[powershell]": {
+            "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
+            "editor.semanticHighlighting.enabled": false,
+            "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+        },
+        "[prompt]": {
+            "editor.unicodeHighlight.ambiguousCharacters": false,
+            "editor.unicodeHighlight.invisibleCharacters": false,
+            "diffEditor.ignoreTrimWhitespace": false
+        },
+        "[properties]": {},
+        "[pug]": {},
+        "[python]": {
+            "diffEditor.ignoreTrimWhitespace": false,
+            "editor.defaultColorDecorators": "never",
+            "editor.formatOnType": true,
+            "editor.wordBasedSuggestions": "off"
+        },
+        "[r]": {},
+        "[raku]": {},
+        "[raw]": {},
+        "[razor]": {},
+        "[regex]": {},
+        "[ruby]": {},
+        "[rust]": {},
+        "[scminput]": {
+            "cSpell.fixSpellingWithRenameProvider": false
+        },
+        "[scss]": {
+            "editor.suggest.insertMode": "replace",
+            "cSpell.fixSpellingWithRenameProvider": false
+        },
+        "[search-result]": {
+            "editor.lineNumbers": "off"
+        },
+        "[shaderlab]": {},
+        "[shellscript]": {
+            "files.eol": "\n",
+            "editor.defaultColorDecorators": "never"
+        },
+        "[snippets]": {
+            "editor.quickSuggestions": {
+                "strings": true
+            },
+            "editor.suggest.insertMode": "replace"
+        },
+        "[sql]": {},
+        "[sqlite]": {},
+        "[ssh_config]": {},
+        "[swift]": {},
+        "[text]": {},
+        "[toml]": {},
+        "[typescript]": {},
+        "[typescriptreact]": {},
+        "[vb]": {},
+        "[vue]": {},
+        "[wat]": {},
+        "[xml]":{},
+        "[xsl]": {},
+        "[yaml]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 2,
+            "editor.autoIndent": "keep",
+            "diffEditor.ignoreTrimWhitespace": false,
+            "editor.defaultColorDecorators": "never",
+            "editor.quickSuggestions": {
+                "strings": true,
+                "other": true,
+                "comments": false
+            }
+        },
+
+    //4.0: Thematics & Colors
+        //4.1: Workbench Colors
+    "disabled": {
+        "workbench.colorCustomizations": {
+            "editor.background": "#1e1e1e",
+            "editor.foreground": "#d4d4d4",
+            "editorLineNumber.foreground": "#858585",
+            "editorCursor.foreground": "#aeafad",
+            "editor.selectionBackground": "#264f78",
+            "editor.inactiveSelectionBackground": "#3a3d4100",
+            "editorLineNumber.activeForeground": "#c6c6c6",
+            "editorWhitespace.foreground": "#e3e4e229",
+            "editorBracketMatch.background": "#0064001a",
+            "editorBracketMatch.border": "#888888",
+            "editorGutter.background": "#2c2c32",
+            "editorGutter.modifiedBackground": "#1b81a8",
+            "editorGutter.addedBackground": "#487e02",
+            "editorGutter.deletedBackground": "#f14c4c",
+            "editorGroupHeader.tabsBackground": "#252526",
+            "tab.activeBackground": "#1e1e1e",
+            "tab.inactiveBackground": "#2d2d2d",
+            "tab.activeForeground": "#ffffff",
+            "tab.inactiveForeground": "#c6c6c6",
+            "editor.selectionHighlightBackground": "#fffb0055",
+            "editor.wordHighlightBackground": "#57575780",
+            "editor.wordHighlightStrongBackground": "#ff000055",
+            "editor.findMatchBackground": "#ffd33d44",
+            "editor.findMatchHighlightBackground": "#ffd33d22",
+            "editor.lineHighlightBackground": "#33333380",
+            "editor.lineHighlightBorder": "#ff0000",
+
+        //4.2: Error & Warnings
+            "editorError.foreground": "#ff5370",
+            "editorWarning.foreground": "#ffcb6b",
+            "editorInfo.foreground": "#82aaff",
+            "editorError.background": "#ff537022",
+            "editorWarning.background": "#ffcb6b22",
+            "editorInfo.background": "#82aaff22",
+            "editorSuggestWidget.background": "#252526",
+
+        //4.3: Git Decorations
+            "gitDecoration.addedResourceForeground": "#81b88b",
+            "gitDecoration.modifiedResourceForeground": "#e2c08d",
+            "gitDecoration.deletedResourceForeground": "#c74e39",
+            "gitDecoration.untrackedResourceForeground": "#73c991",
+            "gitDecoration.ignoredResourceForeground": "#8c8c8c",
+            "gitDecoration.conflictingResourceForeground": "#6c6cc4",
+
+        //4.4: Activity Bar
+            "activityBar.foreground": "#ffffff",
+            "activityBar.inactiveForeground": "#cccccc",
+            "activityBarBadge.background": "#007acc",
+            "activityBarBadge.foreground": "#ffffff",
+            "activityBar.background": "#333333",
+
+        //4.5: Status Bar
+            "statusBar.noFolderBackground": "#68217a",
+            "statusBar.debuggingBackground": "#cc6633",
+            "statusBarItem.remoteBackground": "#16825d",
+            "statusBar.background": "#007acc",
+            "statusBar.foreground": "#ffffff",
+
+        //4.6: Side Bar & Editor Groups
+            "sideBar.background": "#252526",
+            "sideBar.foreground": "#cccccc",
+
+        //4.7: Title Bar
+            "titleBar.activeBackground": "#3c3c3c",
+            "titleBar.activeForeground": "#cccccc",
+            "titleBar.inactiveBackground": "#2c2c32",
+            "titleBar.inactiveForeground": "#cccccc",
+
+        //4.8: Panel & Terminal
+            "panel.background": "#1e1e1e",
+            "panel.border": "#80808050",
+            "terminal.background": "#1e1e1e",
+            "terminal.foreground": "#cccccc",
+            "terminal.ansiBlack": "#000000",
+            "terminal.ansiRed": "#cd3131",
+            "terminal.ansiGreen": "#0dbc79",
+            "terminal.ansiYellow": "#e5e510",
+            "terminal.ansiBlue": "#2472c8",
+            "terminal.ansiMagenta": "#bc3fbc",
+            "terminal.ansiCyan": "#11a8cd",
+            "terminal.ansiWhite": "#e5e5e5",
+            "terminal.ansiBrightBlack": "#666666",
+            "terminal.ansiBrightRed": "#f14c4c",
+            "terminal.ansiBrightGreen": "#23d18b",
+        },
+
+        //4.9: Syntax Highlighting
+        "editor.tokenColorCustomizations": {
+            "comments": "#6A9955",
+            "keywords": "#569CD6",
+            "strings": "#ce9178",
+            "numbers": "#b5cea8",
+            "functions": "#dcdcaa",
+            "variables": "#9cdcfe",
+            "types": "#4ec9b0",
+            "textMateRules": [
+                {
+                        "scope": "entity.name.function",
+                        "settings": { "foreground": "#dcdcaa" }
+                },
+                {
+                        "scope": "variable",
+                        "settings": { "foreground": "#9cdcfe" }
+                },
+                {
+                        "scope": "string",
+                        "settings": { "foreground": "#ce9178" }
+                },
+                {
+                        "scope": "comment",
+                        "settings": { "foreground": "#6A9955" }
+                }
+            ],
+        }
+    }
+    },
+
+    //5.0: Workspace Extensions
+    "extensions": {
+        "recommendations": [
+            //5.1: C/C++ Tools
+            "llvm-vs-code-extensions.vscode-clangd",
+            "ms-vscode.cpptools",
+            "ms-vscode.cpptools-extension-pack",
+            "ms-vscode.cpptools-themes",
+            "ms-vscode.makefile-tools",
+
+            //5.2: CMake
+            "ms-vscode.cmake-tools",
+
+            //5.5. Containers, DevOps, & Remote
+            "henriiik.docker-linter",
+            "ms-azuretools.vscode-containers",
+            "ms-azuretools.vscode-docker",
+            "ms-vscode-remote.remote-containers",
+            "ms-vscode-remote.remote-ssh",
+            "ms-vscode-remote.remote-ssh-edit",
+            "ms-vscode-remote.remote-wsl",
+            "ms-vscode.remote-explorer",
+
+            //5.5: Formatting & Linting
+            "dbaeumer.vscode-eslint",
+            "esbenp.prettier-vscode",
+            "formulahendry.auto-close-tag",
+            "formulahendry.auto-rename-tag",
+            "ms-python.black-formatter",
+            "ms-python.pylint",
+            "redhat.vscode-yaml",
+            "shardulm94.trailing-spaces",
+            "streetsidesoftware.code-spell-checker",
+
+            //5.5: Git Tools
+            "alefragnani.bookmarks",
+            "donjayamanne.githistory",
+            "mccarter.start-git-bash",
+            "mhutchie.git-graph",
+
+            //5.6: GitHub & Collaboration
+            "Specstory.specstory-vscode",
+            "github.codespaces",
+            "github.copilot",
+            "github.copilot-chat",
+            "github.vscode-github-actions",
+            "ms-vsliveshare.vsliveshare",
+
+            //5.7: Go
+            "golang.go",
+
+            //5.8: Markdown & Docs
+            "bierner.github-markdown-preview",
+            "bierner.markdown-checkbox",
+            "bierner.markdown-emoji",
+            "bierner.markdown-footnotes",
+            "bierner.markdown-mermaid",
+            "bierner.markdown-preview-github-styles",
+            "bierner.markdown-shiki",
+            "bierner.markdown-yaml-preamble",
+            "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+            "davidanson.vscode-markdownlint",
+            "rogwilco.defaults-vscode-markdown",
+            "yzhang.markdown-all-in-one",
+
+            //5.9: Miscellaneous & Productivity
+            "bierner.markdown-shiki",
+            "hbenl.vscode-test-explorer",
+            "ms-vscode.hexeditor",
+            "ms-vscode.js-debug-nightly",
+            "ms-vscode.test-adapter-converter",
+            "ms-vscode.vscode-websearchforcopilot",
+
+            //5.10: Python
+            "076923.python-image-preview",
+            "NilsSoderman.ue-python",
+            "SonderMX.python-kits",
+            "benspaulding.python-manifest-template",
+            "kaih2o.python-resource-monitor",
+            "littlefoxteam.vscode-python-test-adapter",
+            "ms-python.debugpy",
+            "ms-python.isort",
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-python.vscode-python-envs",
+
+            //5.11: Python Data Science & Jupyter
+            "ms-toolsai.datawrangler",
+            "ms-toolsai.jupyter",
+            "ms-toolsai.jupyter-keymap",
+            "ms-toolsai.jupyter-renderers",
+            "ms-toolsai.tensorboard",
+            "ms-toolsai.vscode-jupyter-cell-tags",
+            "ms-toolsai.vscode-jupyter-slideshow",
+
+            //5.12: SQL & Databases
+            "alexcvzz.vscode-sqlite",
+            "ms-ossdata.vscode-pgsql",
+            "mtxr.sqltools",
+            "qwtel.sqlite-viewer",
+
+            //5.13: TypeScript
+            "ms-vscode.vscode-typescript-next",
+
+            //5.14: Web Development & Utilities
+            "VisualStudioExptTeam.vscodeintellicode",
+            "aessoft.aessoft-class-autocomplete",
+            "angelmaneuver.wallpaper-setting",
+            "george-alisson.html-preview-vscode",
+            "hyperoot.settings-organizer",
+            "kodu-ai.claude-dev-experimental",
+            "liriliri.vscode-settings-editor",
+            "ms-vscode.live-server",
+            "ms-vscode.wordcount",
+            "njpwerner.autodocstring",
+            "ragavks.recommended-settings",
+            "ritwickdey.liveserver",
+            "sidthesloth.html5-boilerplate",
+            "tamasfe.even-better-toml",
+            "zignd.html-css-class-completion"
+        ]
+    }
+}
