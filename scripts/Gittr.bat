@@ -40,7 +40,9 @@ if errorlevel 1 (
 :: Check cli arg for commit message ::
 if "%~1"=="" (
     for /f "tokens=1 delims=" %%L in (scripts/Gittr.txt) do (
-        set "Arg=%%L"
+        set "Arg=Gittr-%%L: Update"
+        set /a New=%%L + 1
+        echo "%New%" > "scripts/Gittr.txt"
     )
 ) else (
     set "Arg=%~1"
