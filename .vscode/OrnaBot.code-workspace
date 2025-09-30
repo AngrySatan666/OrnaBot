@@ -86,7 +86,7 @@
         "editor.matchBrackets": "always",
         "editor.autoClosingBrackets": "languageDefined",
         "editor.bracketPairColorization.enabled": true,
-        "editor.fontSize": 16,
+        "editor.fontSize": 14,
         "editor.defaultFormatter": "GitHub.copilot",
         "editor.fontFamily": "Arial Unicode MS, Consolas, 'Courier New', monospace",
         "editor.suggest.insertMode": "replace",
@@ -400,7 +400,7 @@
         "python-envs.defaultEnvManager": "ms-python.python:system",
         "python-envs.pythonProjects": [],
         "python.analysis.logLevel": "Trace",
-        "python.defaultInterpreterPath": "c:\\Program Files\\Python312\\python.exe",
+        "python.defaultInterpreterPath": "/usr/bin/python3",
         "python.testing.debugPort": 3000,
         "python.testing.pytestEnabled": true,
         "python.testing.pytestArgs": [],
@@ -432,10 +432,10 @@
         "cSpell.files": [],
         "cSpell.dictionaries": [],
         "cSpell.customDictionaries": {
-            "Intellicap": {
-                "name": "Intellicap",
-                "description": "Custom dictionary for Intellicap project",
-                "path": "./.vscode/Intellicap.dic",
+            "OrnaBot": {
+                "name": "OrnaBot",
+                "description": "Custom Dictionary for OrnaBot Project",
+                "path": "./.vscode/OrnaBot.dic",
             }
         },
         "cSpell.dictionaryDefinitions": [],
