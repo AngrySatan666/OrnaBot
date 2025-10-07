@@ -54,6 +54,7 @@
         "workbench.localHistory.maxFileSize": 1024,
 
         //2.2: Editor
+        "editor.fontSize": 12,
         "editor.tabCompletion": "off",
         "editor.renderControlCharacters": true,
         "editor.fontLigatures": true,
@@ -69,7 +70,7 @@
         "editor.renderWhitespace": "all",
         "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
         "editor.minimap.renderCharacters": true,
-        "editor.minimap.autohide": true,
+        "editor.minimap.autohide": "mouseover",
         "editor.minimap.enabled": true,
         "editor.minimap.maxColumn": 120,
         "editor.guides.bracketPairs": true,
@@ -86,7 +87,6 @@
         "editor.matchBrackets": "always",
         "editor.autoClosingBrackets": "languageDefined",
         "editor.bracketPairColorization.enabled": true,
-        "editor.fontSize": 14,
         "editor.defaultFormatter": "GitHub.copilot",
         "editor.fontFamily": "Arial Unicode MS, Consolas, 'Courier New', monospace",
         "editor.suggest.insertMode": "replace",
